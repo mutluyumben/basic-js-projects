@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background: #f33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lamp {
+    height: 250px;
+    width: 250px;
+}
+
+.buttons {
+    width: 300px;
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 30px;
+    transition: transform .3s ease-in;
+}
+
+.buttons:hover {
+    transform: scale(1.05);
+}
+
+.btnOn:hover {
+    background-color: #fff;
+}
+
+.btnOff:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.btnOn, .btnOff, .btnReset {
+    border: none;
+    outline: none;
+    background-color: aquamarine;
+    padding: 10px;
+    width: 60px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
