@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "yemek-menu-proje",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../../../images"
+		}
+	],
+	"settings": {}
+}

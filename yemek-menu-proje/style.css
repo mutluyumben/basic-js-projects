@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 60px;
+    background-color: rgba(165, 117, 55, 0.445);
+    z-index: 2;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo-img{
+    height: 90px;
+    justify-content: space-around;
+}
+
+.navbar{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+    font-size: 17px;
+}
+
+#active{
+    font-weight: bold;
+}
+.nav a {
+    color: white;
+}
+
+.icons{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.home{
+    background-image: url(images/home.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -14.5rem;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+}
+.home-content{
+    display: grid;
+    margin: 80px;
+    width: 550px;
+    row-gap: 40px;
+    align-items: center;
+    padding: 200px 0px;
+}
+
+.home-title{
+    font-size: 60px;
+    color: goldenrod;
+    font-weight: 2000;
+
+}
+
+.home-text{
+    color: rgba(255, 255, 255, 0.699);
+    font-weight: bolder;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
