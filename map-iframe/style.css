@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:bisque;
+}
+
+.container {
+    background-color: blueviolet;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 12px 32px;
+    padding: 20px;
+}
+
+.form {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    margin-bottom: 10px;
+}
+
+.map iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.form h1 {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.form-in {
+    margin-bottom: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.form-in:focus {
+    outline: none;
+}
+
+.form-in::placeholder {
+    color: #aaa;
+}
+
+textarea { 
+    transition: all .9s ease-in-out;
+}
+
+textarea:focus {
+    outline: none;
+    height: 100px;
+}
+
+form button {
+    font-weight: bold;
+    font-size: 1.1rem !important;
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+form button:active {
+    transform: scale(0.9);
+}
+
+form small {
+    font-size: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
