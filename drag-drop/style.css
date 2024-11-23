@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.empty {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #ccc;
+    margin: 10px;
+}
+
+.fill {
+    background-image: url('https://file.mackolikfeeds.com/teams/6tz7fp6er0cq83ryn92656710');
+    width: 144px;
+    height: 144px;
+    cursor: pointer;
+}
+
+.hold {
+    border: 5px solid #feee;
+}
+
+.hover {
+    background-color: #333;
+    border-style: dashed;
+    border-color: #fff;
+}
+
+@media (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+}
